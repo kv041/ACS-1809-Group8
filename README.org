@@ -1,0 +1,13 @@
+This file should show what needs to be done.
+* Group TODOs
+** TODO Compile the group submissions for Introduction and Organization
+John : I didn't do this yet.** DONE Create a git repository.
+Here it is.
+** TODO Create product list
+Create a list of books to sell. Divide them into categories as specified by site map.
+** TODO Site map
+*** TODO think of way to divide categories of books.
+This would be based on the Audience Subtypes.
+*** TODO Find software to create site map diagrams.
+One potential is dia, a diagram making software.
+*** TODO actually create site map
