@@ -1,0 +1,54 @@
+* Group TODOs
+** TODO Compile the group submissions for Introduction and Organization
+John : I didn't do this yet, it'll be done by Wednesday.
+** DONE Create a git repository
+Here it is.
+** TODO Create product list
+Create a list of books to sell. Divide them into categories as specified by site map.
+
+
+** TODO Site map
+*** TODO think of way to divide categories of books.
+This would be based on the Audience Subtypes.
+*** TODO Find software to create site map diagrams.
+One potential is dia, a diagram making software.
+*** TODO actually create site map
+
+* Introduction
+* Organization
+* Plan
+
+** Defining Goals
+The current focus of the business is to sell books to local IT professionals in Manitoba. This includes stocking commonly desired books, as well as having the ability to recommend alternative titles. Selling books includes arranging pick up or shipping.
+
+** Target Audience
+The bulk of the target audience can be broadly classified as /IT Professionals/. This audience would not be necessarily interested in beginner or novice level texts in IT topics. Books on a more specific areas of Computer Science, Programming, System Administration and other areas would be more relevent to this group. Computer Scientists could want paper copies of CS journals or books on certain mathematical techniques or algorithmic analysis.  Programmers would be interested in particular implementations of certain software packages or frameworks. System administrators might need to learn a new technology or strategies for managing larger and more complex networks, and so on. Let's call this group audience 1A.
+
+However, this audience would also appreciate "classic" texts. These texts, such as /Structure and Interpretation of Computer Programs/ by Abelson and Sussman, or /Compilers: Principles, Techniques, and Tools/ are well known and well regarded even after decades after their publication - quite a feat in a fast moving field such as IT! In fact these books often have nicknames; in the previous two examples "the Wizard book" and "the Dragon book" respectively. Given their status in the larger IT community, any member of this audience segment would want to have these titles in their libraries and on their coffee tables. It would be imperative to not only have them in stock but to include and capture these status elements into the design and theme of the website build the brand. Let's call this sub-audience Audience 1B.
+
+Another portion of this audience are interested in technical documents: manuals, specifications, instructions, diagrams, pin-outs, PCB designs and so on. This segment of IT professionals are laser focused on what they are looking for, and need to be served separately. The converse is also true: these items must not clutter what the other audience segments see. Let's call this subgroup Audience 1C.
+
+While not initially a private audience, a look at IT-related book sales data reveals that beginner and novice books do in fact sell. Furthermore, established IT professionals in one field might want to branch out into another. A small section of the site catered towards these introductory texts would serve this hybrid audience. Let's call this subaudience 2A.
+
+Finally, as a local institution, the initial target audience are all Manitobans. Emerging technologies unique to or at least relevant to Manitoba's IT Sector should receive a special emphasis. Community building and personal networking would further serve this audience segment.
+
+*** TODO create a table for the "Audience Types"
+
+** Intended Benefits
+The benefits the website would bring over other competitors in the market are:
+
+1) Specificity :: General Book retailers, whether brick and mortar or large online e-retailers, are heavily weighted toward beginner and novice texts and general introductions to concepts, once the customer has already expended effort searching and paring down options. This website more specifically caters towards IT professionals in product selection, curation, and design. Where the design of a website like Chapters or Amazon have search functionality and categories for all topics, and lump IT into one monolithic category, our website would be geared toward serving our audience's specific interests.
+2) Curation :: Because of our specialization and knowledge of the field, we are able to curate. This means we can present alternative titles to out of print texts, suggest reading paths and more effectively advertise niche books to people in that particular niche.
+
+** Primary Intent
+To reiterate: the ultimate point of the website's existence is to sell books, particularly rare and niche, to IT professionals.
+
+** Competitor websites
+
+1) Amazon - this general retailer sells many books from all over the world. Our edge over the giant is our ability to curate and greater user ability to search and discover relevant books. For example, the front page of =amazon.ca= has shoes, movies and pet toys on the front page. We'd have what the customer wants or a clear path to find what he wants on our front page. As a local business, direct human contact and the ability to respond to requests rapidly also gives us an advantage.
+2) Chapters, Coles etc - these websites are more specific than Amazon, and have physical brick and mortar stores in Manitoba, but still suffer from the same generality as Amazon. Again, Chapters has romance novels, pop music CDs and pillows on the front page.
+3) NoStarch press - this San Francisco based publisher focuses on Computer Science books. While the website does have a selection of intermediate or advanced texts as well as what is described as "/geek entertainment/" it lacks the more professional oriented texts identified in Audience 1C. Also, this website does not have any Manitoba connection, and only sells book from a specific publisher. While the website has interesting features, such as TOCs for each book, a "/You might like.../" section, and reviews, it does not have a more personalized method of curation, or the ability to place custom orders, ask for support and so on. =nostarch.com=
+
+
+
+
