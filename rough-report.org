@@ -1,7 +1,7 @@
 * Group TODOs
 ** TODO Compile the group submissions for Introduction and Organization
 John : I didn't do this yet, it'll be done by Wednesday.
-** DONE Create a git repository
+** DONE Create a git repository.
 Here it is.
 ** TODO Create product list
 Create a list of books to sell. Divide them into categories as specified by site map.
