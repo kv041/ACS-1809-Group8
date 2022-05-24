@@ -1,3 +1,4 @@
+#+OPTIONS: toc:nil  title:nil
 * HOME
 The home page of the website. This page contains a header photo/logo, a horizontal navigation bar directly underneat the header that links to the main book categories: Programming Reference, Datasheets/Manuals, Project Management, and Classic texts. It would also contain a side navbar that links to other site features, such as Request a Title, Best Sellers, Curator's Corner, FAQ/Contact and an about us page.
 
@@ -80,5 +81,5 @@ This page provides Shipping/pickup information, information of how requesting ti
 ** ABOUT US
 quick marketing fluff, company history et cetera...
 
-** /Product pages/
+* /Product pages/
 This is not linked from the homepage, but describes a general category: each product will have a separate page that is linked to from throughout the website.
