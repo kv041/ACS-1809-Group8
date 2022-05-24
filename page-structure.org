@@ -1,0 +1,84 @@
+* HOME
+The home page of the website. This page contains a header photo/logo, a horizontal navigation bar directly underneat the header that links to the main book categories: Programming Reference, Datasheets/Manuals, Project Management, and Classic texts. It would also contain a side navbar that links to other site features, such as Request a Title, Best Sellers, Curator's Corner, FAQ/Contact and an about us page.
+
+The main body of the page would include a couple of products on sale from each category, a couple of new arrivals, testimonials/reviews and other marketing materials. The top centre of this "body" area would include a quick marketing blurb that describes the business and its primary focus, rare, advanced books and the sourcing of said books
+
+Perhaps a footer bar would display address and email information.
+
+** ON SALE / CLEARANCE
+This se would list products that are "for clearance"
+#+BEGIN_QUOTE
+They have many titles in their inventory and from time to time when the title gets old (which does not
+take too long) they will have a promotional sale and try selling them off to reduce their inventory and
+make room for new titles.
+#+END_QUOTE
+
+The body of the page would be structured as a grid of rectangles, three rectangles per row, (number of products) % 3 rows long. Each rectangle would contain the product title at the top of the box, the centre would contain the cover art, and below the original price, struck through and the new price in a larger font. The title and image would link to the product's page.
+
+** CLASSIC TEXTS
+This page would consist of the categories as headings, and a horizontal list of "classic" titles for each category. The left side would contain cover art and title, followed by a quick blurb, a review/testimonial, price and link to product page.
+
+The blurb would explain why its a classic, and the testimonial would be an industry figure singing its praises. 
+
+
+** PROGRAMMING REFERENCE
+This page corresponds to the /Programming Reference/ category. The top of the body would have a grid of "best sellers" and "clearance" titles.  The next section in the body would be a sort by language section, that would have a list of programming languages. These would link to sections within this page. Following this would be sections titled by the language books they contain. The links in the "sort by lanugage" section would jump down the page to that heading.
+*** BEST SELLERS
+*** SORT BY LANGUAGE
+****  LANGUAGE A
+***** title 1
+***** title 2
+**** LANGUAGE B
+***** title 1
+***** title 2
+**** LANGUAGE C
+***** title 1
+***** title 2
+*** REQUEST A TITLE
+at the bottom of the body, a link 
+
+** DATASHEETS / TECHNICAL MANUALS
+Similar design to the Programming reference section, minus the best-seller/clearance title, as generally someone is looking for a specific thing. "Sort by category" would link to categories down the page.
+*** SORT BY CATEGORY
+**** MICROCONTROLLERS
+***** title one etc...
+**** INTEGRATED CIRCUITS
+**** COMPONENT DATASHEETS
+**** REPAIR MANUALS
+**** CIRCUIT DIAGRAMS
+**** DEBUGGING/TROUBLESHOOTING GUIDES
+
+** PROJECT MANAGEMENT
+Similar structure to /PROGRAMMING REFERENCE/: best sellers/clearance followed by a list of titles.
+
+*** SORT BY CATEGORY
+**** AGILE
+**** SCRUM
+**** KANBAN
+**** HUMAN RESOURCES
+
+
+** REQUEST A TITLE
+The top of the body of this page will have a brief description of the request a title process.
+
+Below this would be a form with text fields for title name, author, ISBN number, other comments, and drop down field for category type. Below this would be text fields for requester name and email.
+
+Below this can be pictures and blurbs of satisfied customers who had books found
+
+** BEST SELLERS / CLEARANCE
+this page would list all books that are considered "best sellers"
+or less euphimistically "clearance." The structure is similar to the previous product pages, this time with nested categories.
+
+** CURATOR'S CORNER / RECCOMENDATION
+title pending...
+
+This section would be in more of a "blog" style with "staff pick" articles or links to flowcharts (themselves composed of links)
+
+** F.A.Q / CONTACT US
+This page provides Shipping/pickup information, information of how requesting titles work, and contact information.
+
+** ABOUT US
+quick marketing fluff, company history et cetera...
+
+** /Product pages/
+This is not linked from the homepage, but describes a general category: each product will have a separate page that is linked to from throughout the website.
