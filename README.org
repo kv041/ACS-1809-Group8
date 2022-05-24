@@ -27,10 +27,14 @@ I'm going to try doing this on graph paper...
 welcome to suggestions here.
 ** TODO Find software to create site map diagrams.
 One potential is dia, a diagram making software.
-** TODO actually create site map
+** DONE actually create site map
+I've made a preliminary one in dia. 
 
-* TODO Create a product page template
-** TODO create a product description template
+* Page Templates
+** TODO Create a template for each page type
+*** TODO create a product description template
 A text template for title, author, isbn, description, and rating.
-** TODO John: create database for above information
-I'll try hand in writing a program that creates a JavaDB of our book titles.
+
+
+* TODO John: create database for the book list
+I'll try my hand in writing a program that creates a JavaDB of our book titles.
