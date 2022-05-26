@@ -1,0 +1,233 @@
+* TEMPLATE
+** BOOK
+:PROPERTIES:
+:Title:
+:Author:
+:Publisher:
+:Year:
+:Pages:
+:Price:
+=description goes here=
+
+* Programming                                                   :Programming:
+** C
+*** Embedded C Coding Standard
+:PROPERTIES:
+:Title: Embedded C Coding Standard
+:Author: Michael Barr
+:Publisher: CreateSpace Independent Publishing
+:Year: 2018
+:Pages: 84
+:Price: $5.99
+Barr Group's Embedded C Coding Standard was developed to minimize bugs in firmware by focusing on practical rules that keep bugs out--while also improving the maintainability and portability of embedded software. The coding standard details a set of guiding principles as well as specific naming conventions and other rules for the use of data types, functions, preprocessor macros, variables and much more. Individual rules that have been demonstrated to reduce or eliminate certain types of bugs are highlighted[fn:1]
+
+* Hardware                                                         :Hardware:
+** Encyclopedia of Electronic Components Volume 1
+:PROPERTIES:
+:Title: Encyclopedia of Electronic Components Volume 1
+:Author: Charles Platt
+:Publisher: Make Community LLC
+:Year: 2012
+:Pages: 296
+:Price: $14.99
+"Must have for your technical library"
+** Encyclopedia of Electronic Components Volume 2
+:PROPERTIES:
+:Title: Encyclopedia of Electronic Components Volume 2
+:Author: Charles Platt
+:Publisher: Make Community LLC
+:Year: 2014
+:Pages: 316
+:Price: $23.99
+** Encyclopedia of Electronic Components Volume 3
+:PROPERTIES:
+:Title: Encyclopedia of Electronic Components Volume 3
+:Author: Charles Platt
+:Publisher: Make Community LLC
+:Year: 2016
+:Pages: 258
+:Price: $14.99
+** Encyclopedia of Electronic Components Volume 1,2,3 Complete Set
+:PROPERTIES:
+:Title: Encyclopedia of Electronic Components Volume 1
+:Author: Charles Platt
+:Publisher: Make Community LLC
+:Year: 2012
+:Pages: 296
+:Price: $39.99
+"Great Value"
+* Classics                                                         :Classics:
+** Structure and Interpretation of Computer Programs
+** The Art of Electronics                                         :Hardware:
+:PROPERTIES:
+:Title: The Art of Electronics, 3rd Edition
+:Author: Paul Horowitz, Winfield Hill
+:Publisher: Cambridge University Press
+:Year: 1980, (2015 3rd Edition)
+:Pages: 1125
+:Price: $95.99
+
+"Wow. Chapter 5 details every circuit artifact that I’ve encountered in the past 30 years in a thorough, pragmatic, and straightforward way. My only ‘twinge’ is that it discloses and explains (in glorious graphical detail and with real part numbers) many topics that I thought were my personal trade secrets. I love the plots. I know that it must take an enormous effort to collate all of the device characteristics. It’s worth the effort. The way the data is presented allows the reader to get terrific perspective on a lot of landscape in a single view. Nice work.” — John Willison, founder, Stanford Research Systems[fn:2]
+
+At long last, here is the thoroughly revised and updated third edition of the hugely successful Art of Electronics. It is widely accepted as the best single authoritative book on electronic circuit design. In addition to new or enhanced coverage of many topics, the Third Edition includes: 90 oscilloscope screenshots illustrating the behavior of working circuits; dozens of graphs giving highly useful measured data of the sort that's often buried or omitted in datasheets but which you need when designing circuits; 80 tables (listing some 1650 active components), enabling intelligent choice of circuit components by listing essential characteristics (both specified and measured) of available parts. The new Art of Electronics ​​retains the feeling of informality and easy access that helped make the earlier editions so successful and popular. It is an indispensable reference and the gold standard​​ for anyone, student or researcher, professional or amateur, who works with electronic circuits.[fn:3]
+
+** The Art of Electronics: The x-Chapters                         :Hardware:
+:PROPERTIES:
+:Title: The Art of Electronics: The x-Chapters
+:Author: Paul Horowitz, Winfield Hill
+:Publisher: Cambridge University Press
+:Year: 2020
+:Pages: 522
+:Price: $52.99
+
+** The C Programming Language aka "K&R C"                      :Programming:
+:PROPERTIES:
+:Title: The C Programming Language, 2nd Edition
+:Author: Brian Kernighan, Dennis Ritchie
+:Publisher: Pearson
+:Year: 1988
+:Pages: 272
+:Price: $50.99
+
+[The C Programming Language] is the definitive work on the C language. Don't read any further until you have this book! - Byte Magazine, 1983[fn:4]
+
+"Old Testament n.
+[C programmers] The first edition of K&R, the sacred text describing Classic C. " - The New Hacker's Dictionary [fn:5]
+
+** Common Lisp: The Language                                   :Programming:
+:PROPERTIES:
+:Title: Common Lisp: The Language aka "The Aluminum Book"
+:Author: Guy L. Steele
+:Publisher: Digital Press
+:Year: 1984
+:Pages: 465
+:Price: $69.89
+
+ "In this greatly expanded edition of the defacto standard, you'll learn about the nearly 200 changes already made since original publication - and find out about gray areas likely to be revised later. Written by the Vice-Chairman of X3J13 (the ANSI committee responsible for the standardization of Common Lisp) and co-developer of the language itself, the new edition contains the entire text of the first edition plus six completely new chapters. They cover:
+
+    CLOS, the Common Lisp Object System, with new features to support function overloading and object-oriented programming, plus complete technical specifications
+    Loops, a powerful control structure for multiple variables
+    Conditions, a generalization of the error signaling mechanism
+    Series and generators
+    Plus other subjects not part of the ANSI standards but of interest to professional programmers. 
+
+Throughout, you'll find fresh examples, additional clarifications, warnings, and tips - all presented with the author's customary vigor and wit." [fn:6]
+
+Aluminum Book n.
+[MIT] "Common LISP: The Language", by Guy L. Steele Jr. (Digital Press, first edition 1984, second edition 1990). - New Hacker's Dictionary
+
+** Programming Perl - 4th Edition                              :Programming:
+:PROPERTIES:
+:Title: Programming Perl - 4th Edition
+:Author: Larry Wall
+:Publisher: O'Reilly
+:Year: 1991 (2012 4th edition)
+:Pages: 1176
+:Price: $54.99
+
+"Adopted as the undisputed Perl bible soon after the first edition appeared in 1991, Programming Perl is still the go-to guide for this highly practical language. Perl began life as a super-fueled text processing utility, but quickly evolved into a general purpose programming language that’s helped hundreds of thousands of programmers, system administrators, and enthusiasts, like you, get your job done." - Amazon blurb
+
+"Camel Book n.
+Universally recognized nickname for the book "Programming Perl", by Larry Wall " - New Hacker's Dictionary
+
+** Introduction to Automata Theory, Languages, and Computation :Programming:
+:PROPERTIES:
+:Title: Introduction to Automata Theory, Languages, and Computation
+:Author: John Hopcraft, Jeffery Ullman
+:Publisher: Addison-Wesley
+:Year: 1979
+:Pages: 560
+:Price: $117.99
+
+"Perhaps the success of the book came from our efforts to present the essence of each proof before actually giving the proof" (Hopcroft 1989).
+
+"Cinderella Book [CMU] n.
+"Introduction to Automata Theory, Languages, and Computation", by John Hopcroft and Jeffrey Ullman, (Addison-Wesley, 1979). So called because the cover depicts a girl (putatively Cinderella) sitting in front of a Rube Goldberg device and holding a rope coming out of it. On the back cover, the device is in shambles after she has (inevitably) pulled on the rope." - New Hacker's Dictionary
+
+** The Design and Implementation of the 4.3BSD UNIX Operating System :Programming:
+:PROPERTIES:
+:Title: The Design and Implementation of the 4.3BSD UNIX Operating System
+:Author: Samuel J. Leffler, Marshal Kirk Mckusick
+:Publisher: Addison Wesley
+:Year: 1991
+:Pages: 471
+:Price: $15.99
+"The first authoritative description of Berkeley UNIX, its design and implementation. Book covers the internal structure of the 4.3 BSD systems and the concepts, data structures and algorithms used in implementing the system facilities" - Google Books blurb[fn:7]
+
+"Either of the standard reference books on the internals of BSD Unix. So called because the covers have a picture depicting a little devil (a visual play on daemon) in sneakers, holding a pitchfork (referring to one of the characteristic features of Unix, the fork(2) system call)." - New Hacker's Dictionary
+
+** Compilers: Principles, Techniques and Tools                 :Programming:
+:PROPERTIES:
+:Title: Compilers: Principles, Techniques and Tools
+:Author: Alfred V. Aho, Ravi Sethi, and Jeffrey D. Ullman
+:Publisher: Addison Wesley
+:Year: 1986
+:Pages: 1040
+:Price: $44.99
+
+" Compilers: Principles, Techniques and Tools, known to professors, students, and developers worldwide as the "Dragon Book," is available in a new edition.  Every chapter has been completely revised to reflect developments in software engineering, programming languages, and computer architecture that have occurred since 1986, when the last edition published.  The authors, recognizing that few readers will ever go on to construct a compiler, retain their focus on the broader set of problems faced in software design and software development. " - Amazon blurb
+
+"The classic text "Compilers: Principles, Techniques and Tools", by Alfred V. Aho, Ravi Sethi, and Jeffrey D. Ullman (Addison-Wesley 1986; ISBN 0-201-10088-6), so called because of the cover design featuring a dragon labeled `complexity of compiler design' and a knight bearing the lance `LALR parser generator' among his other trappings" - New Hacker's Dictionary
+
+** Trusted Computer System Evaluation Criteria                    :Hardware:
+:PROPERTIES:
+:Title: Trusted Computer System Evaluation Criteria
+:Author: US Department of Defense
+:Publisher: DoD
+:Year: 1985
+:Pages: 132
+:Price: $17.99
+
+"Orange Book n.
+The U.S. Government's (now obsolete) standards document "Trusted Computer System Evaluation Criteria, DOD standard 5200.28-STD, December, 1985" which characterize secure computing architectures and defines levels A1 (most secure) through D (least). Modern Unixes are roughly C2." - New Hacker's Dictionary
+
+**  System V Interface Definition                              :Programming:
+:PROPERTIES:
+:Title: System V Interface Definition
+:Author: AT&T
+:Publisher: AT&T
+:Year: 1985
+:Pages: 258
+:Price: $35.00
+
+"Purple Book n.
+ The "System V Interface Definition". The covers of the first editions were an amazingly nauseating shade of off-lavender."  - New Hacker's Dictionary
+
+** POSIX Programmer's Guide                                    :Programming:
+:PROPERTIES:
+:Title: POSIX Programmers Guide
+:Author: Donald Lewine
+:Publisher: O'Reilly
+:Year: 1991
+:Pages: 640
+:Price: $14.97
+
+"This guide, intended as an explanation of the POSIX standard and as a reference for the POSIX.1 programming library, helps you write more portable programs. Most UNIX systems today are POSIX compliant because the federal government requires it for its purchases. Even OSF and UI agree on support for POSIX.Unfortunately, given the manufacturer's documentation, it can be difficult to distinguish system-specific features from those features defined by POSIX. The POSIX Programmer's Guide is especially helpful if you are writing programs that must run on multiple UNIX platforms. This guide also helps you convert existing UNIX programs for POSIX compliance." - Amazon blurb
+
+** Design Patterns: Elements of Reusable Object-Oriented Software :Programming:
+:PROPERTIES:
+:Title: Design Patterns: Elements of Reusable Object-Oriented Software
+:Author: Erich Gamma, Richard Helm, Ralph Johnson, John Vlisside
+:Publisher: Addison Wesley Professional
+:Year: 1994
+:Pages: 431
+:Price: 51.99
+
+"Gang of Four n.
+(also abbreviated `GOF') Describes either the authors or the book "Design Patterns: Elements of Reusable Object-Oriented Software... "Why are we ... called this? Who knows. Somehow the name just stuck." The term is also used to describe any of the design patterns that are used in the book, referring to the patterns within it as `Gang Of Four Patterns.'" - New Hacker's Dictionary
+   
+* Footnotes
+
+[fn:7] https://books.google.ca/books/about/The_Design_and_Implementation_of_the_4_3.html?id=ArRQAAAAMAAJ&source=kp_book_description&redir_esc=y
+
+[fn:6] https://www.cs.cmu.edu/Groups/AI/html/cltl/cltl2.html
+
+[fn:5] https://www.landley.net/history/mirror/jargon.html#Old%20Testament
+
+[fn:4] https://archive.org/details/byte-magazine-1983-08/page/n267/mode/2up?view=theater
+
+[fn:3] https://www.cambridge.org/us/academic/subjects/physics/electronics-physicists/art-electronics-3rd-edition?format=HB
+
+[fn:2] https://artofelectronics.net/
+
+[fn:1] https://barrgroup.com/embedded-systems/books/embedded-c-coding-standard
