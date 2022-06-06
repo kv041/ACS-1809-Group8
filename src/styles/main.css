@@ -1,0 +1,66 @@
+/*
+bg0 = #282828
+yellow3 = #d79921
+orange1 = #d65d0e
+fg0 = #fbf1c7
+red2 = #fb4934;
+green2 = #b8bb26;
+*/
+/* Fonts */
+@font-face {
+    font-family: 'Fira Code';
+    src: url('FiraCode-VariableFont_wght.ttf');}
+
+@font-face {
+    font-family: 'VT323';
+    src: url('VT323-Regular.ttf');}
+
+/*-------------------------------------------*/
+body {
+    background-image: url("../img/bg-tile.png");
+}
+
+#page {
+    width: 70%;
+    height: 2000px;
+    margin: auto;
+    background-color: #282828;
+    
+}
+
+header {
+    height: 150px;
+    /* background-image: url("../img/cloud-bar.webp");*/
+}
+/* nav bar */
+
+ul.nav-bar {
+    margin: 0px auto 5px auto;
+    border: 4px double #d79921;
+    background-color: #d65d0e;
+    text-align: center;
+}
+ul.nav-bar li {
+    display: inline;
+}
+/* trying to get ul.navbar a as a selector through inheritance*/
+  a.nav-bar {
+    font-family: VT323, monospace;
+    font-size: 1.4em;
+    color: #fbf1c7;
+    text-decoration: none;}
+
+  a.current {
+      font-family: VT323, monospace;
+      font-size: 1.6em;
+      color: #fbf1c7;
+      text-decoration: none;
+      font-weight: bold;}
+
+  a.nav-bar:hover {
+      font-family: VT323, monospace;
+    font-size: 1.6em;
+    color: #b8bb26;
+    background-color: #fb4934;
+    text-decoration: underline;
+  }
