@@ -1,0 +1,95 @@
+
+
+body {
+    margin: 0;
+    padding: 0; /* clean start */
+    background-image: url("../img/bg-tile.png");
+    color: #fbf1c7;
+    font-family: 'Fira Code', monospace;
+}
+
+#page {
+    width: 70%;
+    margin: auto;
+    height: 100vh;
+
+    /*background styling */
+    background-color: #282828;
+    border-radius: 2em;
+}
+
+/* Header */
+#title {
+    background-image: url("../img/cloud-bar.webp");
+}
+
+#title h1 {
+    text-align: center;
+    color: #d65d0e;
+}
+
+#title p {
+    text-align: center;
+    text-decoration: oblique;
+}
+
+
+/* nav-bar */
+nav ul {
+    margin: 0px auto 5px auto;
+    border: 4px double #d79921;
+    background-color: #d65d0e;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+nav a {
+    color: #fbf1c7;
+    font-family: VT323, monospace;
+    font-size: 1.4em;
+    text-decoration: none;
+    padding: 0.1em;
+    border: 2px outset #df9;
+}
+
+a.current {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+nav a:hover {
+  font-size: 1.6em;
+    color: #b8bb26;
+    background-color: #fb4934;
+    text-decoration: none;
+    border-bottom: 2px dotted white;
+    padding-bottom: 0.1em;
+}
+
+aside {
+    float: left;
+    width: 20%;
+    background-color:  #8ec07c;
+    border: 4px double #d79921;
+    margin-right: 1em;
+}
+
+aside li {
+    list-style: none;
+    text-align: center;
+    background color darkgreen;
+    margin: 1em;
+    padding 1em;
+    border: 2px inset sienna;
+}
+
+aside a {
+    font-size: 1.3em;
+    font-family: 'Fira Code', monospace;
+    color: #fbf1c7;
+    text-decoration: none;
+}
+
+
