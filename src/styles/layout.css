@@ -11,7 +11,7 @@ body {
 #page {
     width: 70%;
     margin: auto;
-    height: 100vh;
+    /*height: 100vh;*/
 
     /*background styling */
     background-color: #282828;
@@ -99,11 +99,27 @@ aside a {
 main h1, main h2 {
     text-align: center;
 }
-main p {
-
-   
+#blurb {
+    padding: 1em;
+    border: 4px white solid;
+    width: 40%;
+    margin: auto;
+}
+#blurb-image {
+    float: right;
+    position: relative;
+    top: -200px;
+    right: 65px;
 }
 
+#sale-title {
+    font-size: 3em; 
+    color: #fb4934;
+    font-weight: bold;
+    position: relative;
+    top: 3em;
+    left: 2em;
+}
 #sale-grid {
     margin: 0 12.5%;
     padding: 1 em;
