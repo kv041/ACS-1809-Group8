@@ -1,0 +1,19 @@
+/*
+INFO: please scale cover images to
+(250px, 400px) which is a 1:1.6 width to height ratio.
+*/
+
+
+table {
+    margin: 0.5em;
+    padding: 0.5em;
+    border-collapse: collapse;
+}
+table  img {
+    margin: 10px auto;
+    display: block;
+}
+table, th, td {
+    padding: 1em;
+    border: 3px dotted #b8bb26;
+}

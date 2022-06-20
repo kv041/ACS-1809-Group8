@@ -41,6 +41,8 @@ body {
 }
 
 #title h1 {
+    font-size: 4.5em;
+    font-family: VT323, monospace;
     text-align: center;
     color: #d65d0e;
 }
@@ -112,6 +114,9 @@ aside a {
     color: #fbf1c7;
     text-decoration: none;
 }
+
+aside a:hover {
+    color: 
 main {
     float: right;
     width: 75%;
@@ -119,6 +124,7 @@ main {
     border: 3px darkorange solid;
 }
 #main h1, main h2 {
+    font-family: VT323, monospace;
     text-align: center;
 }
 /* ===== FOOTER ===== */
