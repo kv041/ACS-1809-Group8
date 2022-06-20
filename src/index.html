@@ -1,74 +1,131 @@
 <!DOCTYPE html>
-<!--This is the homepage for the website.  -->
 <html>
-  <head >
-    <title> Computer Book Shoppe - All Your Computing Needs Met Here</title>
-    <link href="styles/main.css" type="text/css" rel="stylesheet">
-  </head >
-  
-  <body>
-    <!--The content shall be placed in a central area on the page, because screens
+
+<head>
+  <title> J&amp;H Computer Booke Shoppe</title>
+  <link href="styles/main.css" type="text/css" rel="stylesheet">
+  <link href="styles/index.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!--The content shall be placed in a central area on the page, because screens
         are wide. This also gives us a two-tone background. -->
-    <div id="page">
-      <header>
-        <!-- This is where The title picture and logo will go. -->
-        <!-- just using a placeholder image for now. The image/logo always functions as a link to the homepage-->
-        <a href="index.html"><img src="img/cloud-bar.webp" width=100% height=150px></a>
-      </header>
-     <nav>
-      <ul class="nav-bar">
-        <li><a class="current" href="index.html">HOME</a></li>
-        <li><a class="nav-bar" href="about.html">ABOUT US</a></li>
-        <li><a class="nav-bar" href="clearance.html">CLEARANCE</a></li>
-        <li><a class="nav-bar" href="programming.html">PROGRAMMING</a></li>
-        <li><a class="nav-bar"  href="techref.html">TECHNICAL MANUALS</a></li>
-        <li><a class="nav-bar" href="projman.html">PROJECT MANAGEMENT</a></li>
-        <li><a class="nav-bar" href="reqtitle.html">REQUEST-A-TITLE</a></li>
-        <li><a class="nav-bar" href="faq.html">F.A.Q / CONTACT</a></li>
-      </ul>
-      </nav>
-      <!-- next is the side panel -->
-      <div id="side-panel">
+  <div id="page">
+
+    <header>
+      <!-- title block -->
+      <div id="title">
+        <h1>The Computer Booke Shoppe</h1>
+        <p>Where the Cutting Edge Meets the Tried and True</p>
+      </div>
+      <nav>
+        <!-- make sure to add class="current" to current page if applicable -->
         <ul>
-          <li><a href="#">SIDE ITEM I</a></li>
-          
-          <li><a href="#">SIDE ITEM II</a></li>
-          
-          <li><a href="#">SIDSE ITEM 3</a></li>
-          
-          <li><a href="#">ITEM 4</a></li>
+          <li>SHOP:</li>
+          <li><a href="clearance.html">CLEARANCE</a></li>
+          <li><a href="programming.html">PROGRAMMING</a></li>
+          <li><a href="techref.html">TECHNICAL MANUALS</a></li>
+          <li><a href="project.html">PROJECT MANAGEMENT</a></li>
+          <li><a href="classics.html">CLASSICS</a></li>
         </ul>
-        <br><br><br><br><br><br><br><br><br><br><br>        <br><br><br><br><br><br><br><br><br><br><br>
+      </nav>
+    </header>
+
+    <aside>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="#">F.A.Q</a></li>
+        <li><a href="reqtitle.html">REQUEST-A-TITLE</a></li>
+        <li><a href="#">CURATOR'S CORNER</a></li>
+        <li><a href="#">LOCATION</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </aside>
+
+    <!-- The main content area -->
+    <main>
+      <h1 class="welcome">Welcome to the J&amp;H Computer Booke Shoppe!</h1>
+      <div id="blurb">
+        <img src="img/laptop-clipart.png" alt="laptop">
+        <div id="blurb-text">
+        <p>We are two long-time industry professionals who have set out to collect the finest IT books around:
+          from Venerable Classics to the most accurate info on the newest technologies, you can find it here at
+          the J&amp;H Computer Booke Shoppe!
+
+          <br>
+
+        Not sure what you need? Implementing a new system? Adding a new paradigm to your toolbelt?
+          Our experience curators can help you find what you need? Need a rare or obscure title ordered?
+          We can do that too!!!
+        </p>
+        </div>
+      </div>
+      
+      <h1 id="sale-title">ON SALE NOW!</h1>
+
+      <!--A 3 column grid of products on display.  -->
+      <div id="sale-grid">
+        <div id="sale-row">
+          <div class="product">
+            <h3>Structure and Interpretation of Computer Programs</h3>
+            <img src="img/SICP_cover.jpg" alt="SICP">
+            <p><span class="old-price">$76.99</span><span class="new-price"> $50.81</span>
+              <span class="sale">33% off!!!</span>
+            </p>
+          </div>
+          <div class="product">
+            <h3>Compilers: Principles, Techniques and Tools</h3>
+            <img src="img/dragon-book-cover.jpg" alt="Dragon Book">
+            <p><span class="old-price">$99.99</span><span class="new-price"> $44.99</span>
+              <span class="sale"> 50% off!!!</span>
+            </p>
+          </div>
+          <div class="product">
+            <h3>Embedded C Coding Standard</h3>
+            <img src="img/c-embed.jpg" alt="Embedded C Standard">
+            <p><span class="old-price">$29.99</span> <span class="new-price"> 19.99</span>
+              <span class="sale">33% off!!!</span>
+            </p>
+          </div>
+        </div>
       </div>
 
-      <div id="content">
-        <!--Main Conten panel -->
-        
-        <div id="intro">
-          <!-- intro section -->
-          <h1> Welcome Message</h1>
-           <p>
-          <img src="img/laptop-clipart.png" height="100" width="100" align="left">
-          This is the introductory paragraph that explains what the business is.
-          <img src="img/books-clipart.png" height="100" width="100" align="right">
-          </p>
-          <hr>
-        </div>
-        
-        <div id="sale-banner">
-          <a href="clearance.html"> <h1>NOW ON SALE!!!</h1></a> 
-        </div>
+      <div class="clearer">
+        <br>
+      </div>
 
-        <div id="grid-sale">
-          <div class="box1"><p> first sale product</p></div>
-          <div class="box2"><p>second sale product</p></div>
-          <div class="box3"><p>Third sale product</p></div>
+      <!-- A split for Request-a-title and Curator's Corner  -->
+      <div id="info-split">
+        <div id="info-req">
+          <h2>Request a Title...</h2>
+          <p>
+            Not available in stock anywhere? Out of print? Extremely obscure? If you have a title,
+            author, or any info, we can track it down for you!</p>
+          <img src="img/magnifying-glass.png" alt="magnifying glass">
+          <p><a href="reqtitle.html">CLICK HERE TO BEGIN!</a></p>
         </div>
-      
-        
-      </div> <!-- content -->
-    </div> <!-- page -->
+        <div id="info-corner">
+          <h2>Curator's Corner</h2>
+          <ul>
+            <li><a href="top-sellers.html">Top Sellers</a></li>
+            <li><a href="staff-picks.html">Staff Picks</a></li>
+            <li><a href="spotlight">Spotlight - Title of the Month</a></li>
+          </ul>
+          <img src="img/flowchart.jpg" alt="flowchart">
+        </div>
+      </div>      
+    </main>
 
-    
-  </body>
+
+    <footer>
+      <br>
+      <p>Copyright 2022 Alice & Bob All rights reserved.</p>
+      <p>123 Busy Street, R0C 9Z0 Winnipeg MB Canada</p>
+      <p>Tel: +1 (204) 867-5309; email: info@shoppe.ca</p>
+    </footer>
+  </div>
+</body>
+
 </html>

@@ -1,133 +1,134 @@
-/*
-bg0 = #282828
-yellow3 = #d79921
-orange1 = #d65d0e
-fg0 = #fbf1c7
-red2 = #fb4934;
-green2 = #b8bb26;
-aqua2 = #8ec07c;
-*/
-/* Fonts */
+/* ===== F.O.N.T.S ===== */
+
+/* main font */
 @font-face {
     font-family: 'Fira Code';
     src: url('FiraCode-VariableFont_wght.ttf');}
 
+
+/* Title font */
 @font-face {
     font-family: 'VT323';
     src: url('VT323-Regular.ttf');}
 
-/*-------------------------------------------*/
+/* ===== L.A.Y.O.U.T ====== */
+
+* {
+    box-sizing: border-box;
+}
+
 body {
+    margin: 0;
+    padding: 0; /* clean start */
     background-image: url("../img/bg-tile.png");
+    color: #fbf1c7;
+    font-family: 'Fira Code', monospace;
 }
 
 #page {
     width: 70%;
-    height: 2000px;
     margin: auto;
+    /*height: 100vh;*/
+
+    /*background styling */
     background-color: #282828;
-    
+    border-radius: 2em;
 }
 
-header {
-    height: 150px;
-    /* background-image: url("../img/cloud-bar.webp");*/
+/* Header */
+#title {
+    background-image: url("../img/cloud-bar.webp");
 }
-/* nav bar */
 
-ul.nav-bar {
+#title h1 {
+    text-align: center;
+    color: #d65d0e;
+}
+
+#title p {
+    text-align: center;
+    text-decoration: oblique;
+}
+
+
+/* nav-bar */
+nav ul {
     margin: 0px auto 5px auto;
     border: 4px double #d79921;
     background-color: #d65d0e;
     text-align: center;
 }
-ul.nav-bar li {
+
+nav li {
     display: inline;
 }
-/* trying to get ul.navbar a as a selector through inheritance*/
-  a.nav-bar {
+nav a {
+    color: #fbf1c7;
     font-family: VT323, monospace;
     font-size: 1.4em;
-    color: #fbf1c7;
-    text-decoration: none;}
+    text-decoration: none;
+    padding: 0.1em;
+    border: 2px outset #df9;
+}
 
-  a.current {
-      font-family: VT323, monospace;
-      font-size: 1.6em;
-      color: #fbf1c7;
-      text-decoration: none;
-      font-weight: bold;}
+a.current {
+    font-weight: bold;
+    font-size: 1.5em;
+}
 
-  a.nav-bar:hover {
-      font-family: VT323, monospace;
+nav a:hover {
     font-size: 1.6em;
     color: #b8bb26;
     background-color: #fb4934;
-    text-decoration: underline;
-  }
+    text-decoration: none;
+    border-bottom: 2px dotted white;
+    padding-bottom: 0.1em;
+}
+/* === SIDE PANEL === */
+aside {
+    float: left;
+    width: 20%;
+    margin: 0;
+    background-color:  #8ec07c;
+    border: 4px double #d79921;
 
-  #side-panel {
-      background-color:  #8ec07c;
-      width: 30%;
-      border: 6px solid #d65d0e;
-      float: left;
-      margin: 5px;
-  }
+}
+aside ul {
+    margin: auto;
+}
+aside li {
+    list-style: none;
+    text-align: center;
+    background-color: darkgreen;
+    margin: 1em;
+    padding: 1em;
+    border: 2px inset sienna;
+    border-radius: 0.5em;
+}
 
-  #side-panel li {
-      margin: 5px;
-      border: 4px double #d79921;
-      list-style: none;
-  }
+aside a {
+    font-size: 1.3em;
+    font-family: 'Fira Code', monospace;
+    color: #fbf1c7;
+    text-decoration: none;
+}
+main {
+    float: right;
+    width: 75%;
+    margin-left: 1em;
+    border: 3px darkorange solid;
+}
+#main h1, main h2 {
+    text-align: center;
+}
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    width: 40em;
+    padding: 1em;
+    margin-top: 2em;
+    margin-right: auto;
+    margin-left: auto;
+    clear: both;
+}
 
-  #side-panel a {
-      font-family: Fira Code, monospace;
-      font-size: 1.3em;
-      color: #fbf1c7;
-      text-decoration: none;
-  }
-
-  #content {
-      float: left;
-      width: 63%;
-      padding: 10px;
-     /* border: 4px double white; */
-      color: #fbf1c7;
-  }
-
- #intro p image {
-     margin: 5px;
-      color: #282828;
-      background-color: #fbf1c7;
-      float: left;
-      display: inline;
- }
-
- #sale-banner {
-     position: relative;
-     top: 50px;
-     text-align: center;
-     background-color: #b8bb26;
- }
- 
- #sale-banner a:link {
-     color: #fb4934;
-     text-decoration: none;
-     font-family: VT323;
- }
- #sale-banner a:hover {
-     color: #fff;
- }
-  
- .box1, .box2, .box3 {
-     position: relative;
-     top: 30px;
-     margin: 10px;
-     padding: 5px;
-     float: left;
-     height: 300px;
-     width: 200px;
-     background-color:#fbf1c7;
-     color: #282828;
-     border:  6px solid  #8ec07c;
- }

@@ -1,103 +1,64 @@
 <!DOCTYPE html>
 <html>
+
   <head>
-    <title> Template for all Pages</title>
-    <link href="styles/typography.css" type="text/css" rel ="stylesheet">
-    <link href="styles/layout.css" type="text/css" rel ="stylesheet">
-    
+    <!-- Change Page Title Here -->
+  <title>PAGE TITLE</title>
+  <link href="styles/typography.css" type="text/css" rel="stylesheet">
+  <link href="styles/layout.css" type="text/css" rel="stylesheet">
+
   </head>
 
-  <body>
-    <!--The content shall be placed in a central area on the page, because screens
+  
+<body>
+  <!--The content shall be placed in a central area on the page, because screens
         are wide. This also gives us a two-tone background. -->
-    <div id="page">
-      
-      <header>
-        <!-- title block -->
-        <div id="title">
-          <h1>The Computer Booke Shoppe</h1>
-          <p>Where the Cutting Edge Meets the Tried and True</p>
-        </div>
-        <nav>
-          <!-- make sure to add class="current" to current page if applicable -->
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT US</a></li>
-            <li><a href="clearance.html">CLEARANCE</a></li>
-            <li><a href="programming.html">PROGRAMMING</a></li>
-            <li><a href="techref.html">TECHNICAL MANUALS</a></li>
-            <li><a href="project.html">PROJECT MANAGEMENT</a></li>
-            <li><a href="reqtitle.html">REQUEST-A-TITLE</a></li>
-          </ul>
-        </nav>
-      </header>
+  <div id="page">
 
-      <aside>
+    <header>
+      <!-- title block -->
+      <div id="title">
+        <h1>The Computer Booke Shoppe</h1>
+        <p>Where the Cutting Edge Meets the Tried and True</p>
+      </div>
+      <nav>
+        <!-- make sure to add class="current" to current page if applicable -->
         <ul>
-          <li><a href="#">ITEM I</a></li>
-          <li><a href="#">ITEM II</a></li>
-          <li><a href="#">ITEM III</a></li>
-          <li><a href="#">ITEM III</a></li>
-          <li><a href="#">ITEM III</a></li>
-          <li><a href="#">ITEM III</a></li>
+          <li>SHOP:</li>
+          <li><a href="clearance.html">CLEARANCE</a></li>
+          <li><a href="programming.html">PROGRAMMING</a></li>
+          <li><a href="techref.html">TECHNICAL MANUALS</a></li>
+          <li><a href="project.html">PROJECT MANAGEMENT</a></li>
+          <li><a href="classics.html">CLASSICS</a></li>
         </ul>
-      </aside>
+      </nav>
+    </header>
 
-      <!-- The main content area -->
-      <main>
-        <h1 >Welcome to the J&amp;H Computer Booke Shoppe!</h1>
-        <div id="blurb">
-          <p>We are two long-time industry professionals who have set out to collect the finest IT books around:
-            from Venerable Classics to the most accurate info on the newest technologies, you can find it here at
-            the J&amp;H Computer Booke Shoppe!</p>
+    <aside>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="#">F.A.Q</a></li>
+        <li><a href="reqtitle.html">REQUEST-A-TITLE</a></li>
+        <li><a href="#">CURATOR'S CORNER</a></li>
+        <li><a href="#">LOCATION</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </aside>
 
-          <p>Not sure what you need? Implementing a new system? Adding a new paradigm to your toolbelt?
-            Our experience curators can help you find what you need? Need a rare or obscure title ordered?
-            We can do that too!!!</p>
-        </div>
-        <img src="img/laptop-clipart.png" alt="laptop" id="blurb-image">
-        <h1 id="sale-title">ON SALE NOW!</h1>
-        <div id="sale-grid">
-          <div id="sale-row">
-            <div class="product">
-              <h3>Structure and Interpretation of Computer Programs</h3>
-              <img src="img/SICP_cover.jpg" alt="SICP">
-              <p><span class="old-price">$76.99</span><span class="new-price"> $50.81</span>
-                <span class="sale" >33% off!!!</span></p>
-            </div>
-            <div class="product">
-              <h3>Compilers: Principles, Techniques and Tools</h3>
-              <img src="img/dragon-book-cover.jpg" alt="Dragon Book">
-              <p><span class="old-price">$99.99</span><span class="new-price"> $44.99</span>
-                <span class="sale" > 50% off!!!</span></p>
-            </div>
-            <div class="product">
-              <h3>Embedded C Coding Standard</h3>
-              <img src="img/c-embed.jpg" alt="Embedded C Standard">
-              <p><span class="old-price">$29.99</span> <span class="new-price"> 19.99</span>
-                <span class="sale" >33% off!!!</span></p>
-            </div>
-          </div>
-          <!-- Here is a grid of products for sale --
-               <table>
-                 <tr>
-                   <th>Structure and Interpretation of Computer Programs</th>
-                 </tr>
-                 <tr>
-                   <td><img src="img/SICP_cover.jpg" alt="SICP"></td>
-                 </tr>
-                 <tr>
-                   <td><p><span class="old-price">$76.99</span> $50.81 <span class="sale" >33% off!!!</span></p></td>
-                 </tr>
-               </table>
-               -->
-      </main>     
+    <!-- The main content area -->
 
+    <main>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </main>
 
-      <footer>
-        <p>Copyright 2022 Alice & Bob All rights reserved.</p>
-        <p>123 Busy Street, R0C 9Z0 Winnipeg MB Canada</p>
-        <p>Tel: +1 (204) 867-5309; email: info@shoppe.ca</p>
-      </footer>
-  </body>
+    <footer>
+      <br>
+      <p>Copyright 2022 Alice & Bob All rights reserved.</p>
+      <p>123 Busy Street, R0C 9Z0 Winnipeg MB Canada</p>
+      <p>Tel: +1 (204) 867-5309; email: info@shoppe.ca</p>
+    </footer>
+  </div>
+</body>
+
 </html>
