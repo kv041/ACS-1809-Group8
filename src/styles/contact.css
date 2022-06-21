@@ -3,6 +3,7 @@ h2 {
 }
 
 form {
+    line-height: 2em;
     margin: 3em auto;
     width: 40%
 }
