@@ -123,7 +123,7 @@ main {
     margin-left: 1em;
     border: 3px darkorange solid;
 }
-#main h1, main h2 {
+main h1, main h2 {
     font-family: VT323, monospace;
     text-align: center;
 }
