@@ -49,7 +49,7 @@ body {
 
 #title p {
     text-align: center;
-    text-decoration: oblique;
+    font-style: oblique;
 }
 
 
@@ -115,8 +115,10 @@ aside a {
     text-decoration: none;
 }
 
-aside a:hover {
-    color: 
+/*aside a:hover {
+    color:
+}
+*/
 main {
     float: right;
     width: 75%;

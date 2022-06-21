@@ -1,0 +1,36 @@
+h2 {
+    font-size: 3em;
+}
+
+form {
+    margin: 3em auto;
+    width: 40%
+}
+
+.note {
+font-variant: small-caps;
+}
+
+p {
+    width: 50%;
+    margin: auto;
+}
+
+input, textarea, button {
+    color: #3c3836;
+    background-color: #fbf1c7;
+    box-shadow: 2px 4px #928374;
+    border-radius: 2px 3px;
+    font-family: 'Fira Code';
+}
+
+button {
+    border-radius: 4px 6px;
+    font-size: 1.5em;
+}
+
+legend  {
+    font-family: 'Fira Code';
+    font-size: 1.2em;
+    font-weight: bold;
+}
