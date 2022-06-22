@@ -129,6 +129,12 @@ main h1, main h2 {
     font-family: VT323, monospace;
     text-align: center;
 }
+main a {
+    color: #b16286;
+}
+main a:visited {
+    color: #8f3f71;
+}
 /* ===== FOOTER ===== */
 footer {
     text-align: center;
