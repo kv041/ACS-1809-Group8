@@ -49,7 +49,100 @@
     <!-- The main content area -->
 
     <main>
+      <h2>Request-a-Title</h2>
+      <p>Welcome to Request-a-Title! This feature let's you connect nigh directly with the publishing industry! Don't know what you're looking for? Can't remember the title? Just looking for a recommendation and have nothing specific in mind? Not a problem! Answer what you know, and we'll find what you need for the best price - guaranteed.</p>
+      <form>
+        <fieldset>
+          <legend>Step I: Ballpark Info</legend>
+          <label for"topic">What topic are you intereseted in?</label><br>
+          <select id="topic" name="topic" size="7" multiple>
+            <option value="prog-lang">Programming Languages</option>
+            <option value="api">API's</option>
+            <option value="compiler">Compilers</option>
+            <option value="hardware">Hardware</option>
+            <option value="datamans">Datasheets/Manuals</option>
+            <option value="projman">Project Management</option>
+            <option value="obscure">Obscurata and Oddities</option>
+          </select>
+          <br><br>
+          <label for="lang">Choose the relevant programming language, if applicable:</label><br>
+          <select id="lang" name="lang">
+            <option value="na">Not Applicable</option>
+            <optgroup label="Low Level">
+              <option value="asm">Assembly</option>
+              <option value="c">C</option>
+              <option value="cpp">C++</option>
+              <option value="fortran">FORTRAN</option>
+            </optgroup>
+            <optgroup label="High Level">
+              <option value="python">Python</option>
+              <option value="java">Java</option>
+              <option value="perl">Perl</option>
+            </optgroup>
+            <optgroup label="Functional Languages">
+              <option value="cl">Common Lisp</option>
+              <option value="elisp">Emacs Lisp</option>
+              <option value="scheme">Scheme</option>
+              <option value="guile">GNU Guile Scheme</option>
+              <option value="haskell">Haskell</option>
+            </optgroup>
+            <optgroup label="Web + Markup">
+              <option value="html">HTML</option>
+              <option value="css">CSS</option>
+              <option value="jscript">JavaScript</option>
+              <option value="latex">LaTeX</option>
+              <option value="markdown">Markdown</option>
+            </optgroup>
+            <optgroup label="Other">
+              <option value="prolog">Prolog</option>
+              <option value="coq">Coq</option>
+            </optgroup>
+          </select>
+          <br><br>
 
+          <p>What kind of hardware is involved?</p>
+          <input type="checkbox" id="desktop" name="hardt" value="desktop">
+          <label for="desktop">Desktop</label><br>
+          <input type="checkbox" id="mobile" name="hardt" value="mobile">
+          <label for="mobile">Mobile</label> <br>
+          <input type="checkbox" id="server" name="hardt" value="server">
+          <label for="server">Server</label> <br>
+          <input type="checkbox" id="embed" name="hardt" value="embed">
+          <label for="embed">Embedded/Microcontroller</label> <br>
+          <br>
+
+          <p>What project management system are you interested in?</p>
+          <input type="radio" id="scrum" name="projman" value="scrum">
+          <label for="scrum">SCRUM</label><br>
+          <input type="radio" id="agile" name="projman" value="agile">
+          <label for="agile">Agile</label><br>
+          <input type="radio" id="gtd" name="projman" value="gtd">
+          <label for="gtd">G.T.D.</label><br>
+          <input type="radio" id="kanban" name="projman" value="kanban">
+          <label for="kanban">Kanban</label><br>
+          <input type="radio" id="other" name="projman" value="other">
+          <label for="other">Other</label><br>
+          <input type="radio" id="na" name="projman" value="na" checked>
+          <label for="na">Not Applicable</label><br>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+          <legend> Step II: Narrowing it Down:</legend>
+          <label for="author">Author:</label>
+          <input name="author" id="author" type="text" placeholder="your best guess..."><br><br>
+          <label for="title">Title:</label>
+          <input name="title" id="title" type="text" placeholder="your best guess..."><br><br>
+          <label for="publisher">Publisher:</label>
+          <input name="publisher" id="publisher" type="text" placeholder="your best guess..."><br><br>
+          <label for="keyword">Any other keywords:</label>
+          <input name="keyword" id="keyword" type="text" placeholder="whatever you can think of..."><br><br>
+          <label for="title">Title:</label>
+          <input name="isbn" id="isbn" type="number" placeholder="ten or thirteen digits..."><br><br> 
+        </fieldset>
+      </form>
+      
     </main>
 
     <footer>
