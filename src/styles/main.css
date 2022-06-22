@@ -135,6 +135,10 @@ main a {
 main a:visited {
     color: #8f3f71;
 }
+main a:hover {
+    color: #d3869b;
+    text-decoration: underline overline;
+}
 /* ===== FOOTER ===== */
 footer {
     text-align: center;
