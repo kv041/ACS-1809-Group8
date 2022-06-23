@@ -32,6 +32,18 @@ button {
 
 legend  {
     font-family: 'Fira Code';
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: bold;
+}
+form p, label {
+    font-weight: bold;
+}
+fieldset {
+    padding: 1em;
+}
+.req {
+    color:#fb4934;
+}
+.optional {
+    color: #a89984;
 }

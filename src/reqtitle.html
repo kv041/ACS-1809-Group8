@@ -5,8 +5,8 @@
     <!-- Change Page Title Here -->
   <title>PAGE TITLE</title>
   <link href="styles/main.css" type="text/css" rel="stylesheet">
-  <link href="styles/index.css" type="text/css" rel="stylesheet">
-
+  <link href="styles/contact.css" type="text/css" rel="stylesheet">
+<!-- reusing contact form css -->
   </head>
 
   
@@ -138,8 +138,25 @@
           <input name="publisher" id="publisher" type="text" placeholder="your best guess..."><br><br>
           <label for="keyword">Any other keywords:</label>
           <input name="keyword" id="keyword" type="text" placeholder="whatever you can think of..."><br><br>
-          <label for="title">Title:</label>
-          <input name="isbn" id="isbn" type="number" placeholder="ten or thirteen digits..."><br><br> 
+          <label for="title">ISBN:</label>
+          <input name="isbn" id="isbn" type="number" placeholder="10/13 digits..."><br><br>
+
+          <label for="comment">Any further information you'd like to provide:</label><br>
+          <textarea id="comment" name="comment" rows="8" cols"100">Your comments here...</textarea><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Step III: Your Contact Info</legend>
+          <label for="username">Your Name:<span class="req">*</span></label>&nbsp;
+          <input type="text" name="uname" /><br>
+          <label for="email">Your E-mail:<span class="req">*</span></label>&nbsp;
+          <input type="email" name="uemail" required><br>
+          <label for="uphone">Phone Number:<span class="optional">&nbsp;(optional)</span></label>&nbsp;
+          <input type="tel" name="uphone" id="uphone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                 placeholder="###-###-####"><br>
+        </fieldset>
+        <fieldset>
+          <button type="submit">Send</button>&nbsp; <button type="reset">Start over</button>
         </fieldset>
       </form>
       
