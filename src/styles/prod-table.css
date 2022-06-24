@@ -5,13 +5,15 @@ INFO: please scale cover images to
 
 
 table {
-    margin: 0.5em;
+    margin: auto;
     padding: 0.5em;
     border-collapse: collapse;
 }
 table  img {
     margin: 10px auto;
     display: block;
+    width: 250px;
+    height: 400px;
 }
 table, th, td {
     padding: 1em;
