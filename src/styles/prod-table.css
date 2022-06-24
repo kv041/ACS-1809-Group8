@@ -19,3 +19,12 @@ table, th, td {
     padding: 1em;
     border: 3px dotted #b8bb26;
 }
+.intro {
+    width: 60%;
+    margin: auto;
+    padding: 1em;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    border: 2px dashed white;
+}
