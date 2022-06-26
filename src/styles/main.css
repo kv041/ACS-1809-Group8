@@ -115,10 +115,8 @@ aside a {
     text-decoration: none;
 }
 
-/*aside a:hover {
-    color:
-}
-*/
+
+/* ======= M.A.I.N ======= */
 main {
     float: right;
     width: 75%;
@@ -128,6 +126,18 @@ main {
 main h1, main h2 {
     font-family: VT323, monospace;
     text-align: center;
+}
+main h1 {
+    font-size: 4em;
+}
+
+main h2 {
+    font-size: 3em;
+    margin-bottom: 5px;
+}
+
+main ul li {
+    font-size: 1.5em;
 }
 main a {
     color: #b16286;

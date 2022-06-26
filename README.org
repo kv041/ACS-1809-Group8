@@ -1,40 +1,35 @@
-This file should show what needs to be done.
-* TODO Compile the group submissions for Introduction and Organization
-John : I didn't do this yet
-* DONE Create a git repository.
-Here it is.
-* TODO Create product list
-Create a list of books to sell. Divide them into categories as specified by site map.
+* Page list - written?
+- [] index.html
+- [] about-use.html
+- [] classics.html
+- [] clearance.html
+- [] contact.html
+- [] faq.html
+- [] hardware.html
+- [] programming.html
+- [] reqtitle.html
 
-Consider these links:
-1. https://github.com/techgaun/awesome-electronics for the Datasheet/Technical manual section
-2. https://github.com/Kiloreux/awesome-robotics#readme scroll to bookls section
-3. https://github.com/HQarroum/awesome-iot#books
-4. https://github.com/LappleApple/awesome-leading-and-managing#readme project management, each link lists to a list of books, can be mined for "testimonials" and reviews.
-5. https://github.com/joho/awesome-code-review#books Project management, programming
-6. https://github.com/ellisonleao/magictools#books
-7. https://leadership-library.dev/
+* Page list - Fixed nav links?
+- [] index.html
+- [] about-use.html
+- [] classics.html
+- [] clearance.html
+- [] contact.html
+- [] faq.html
+- [] hardware.html
+- [] programming.html
+- [] reqtitle.html
 
-   
-* TODO Site map
-** DONE create a page structure document
-this document briefly outlines each page of the website and roughly what it looks like. We can use this as a guide to design each page.
-** TODO think of way to divide categories of books.
-This would be based on the Audience Subtypes.
-/in progress/ There is a rough division in the page-structure document, however, finding the links of books might cause a retooling of these structures.
-** TODO Draw site map
-I'm going to try doing this on graph paper...
-welcome to suggestions here.
-** TODO Find software to create site map diagrams.
-One potential is dia, a diagram making software.
-** DONE actually create site map
-I've made a preliminary one in dia. 
+This is because the template what slightly out of date, or pages weren't written before the template was.
 
-* Page Templates
-** TODO Create a template for each page type
-*** TODO create a product description template
-A text template for title, author, isbn, description, and rating.
+* Page list - FINAL CHECK?
+- [] index.html
+- [] about-use.html
+- [] classics.html
+- [] clearance.html
+- [] contact.html
+- [] faq.html
+- [] hardware.html
+- [] programming.html
+- [] reqtitle.html
 
-
-* TODO John: create database for the book list
-I'll try my hand in writing a program that creates a JavaDB of our book titles.
