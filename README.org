@@ -1,13 +1,16 @@
-* Page list - written?
-- [] index.html
-- [] about-use.html
-- [] classics.html
+* TODO Page list - written?
+- [x] index.html
+- [x] about-us.html
+- [x] classics.html
 - [] clearance.html
-- [] contact.html
-- [] faq.html
-- [] hardware.html
-- [] programming.html
-- [] reqtitle.html
+- [x] contact.html
+- [x] faq.html
+- [-] hardware.html
+- [x] programming.html
+- [x] reqtitle.html
+- [] curator.html
+- [] topsellers.html
+- [] cart.html
 
 * Page list - Fixed nav links?
 - [] index.html
